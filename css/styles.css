@@ -1,0 +1,112 @@
+body{
+		background: #252525 ;
+		margin: 0px;
+		font-family: 400 12px/22px 'Acme', sans-serif;
+		color:#6a6969;
+    }
+
+	h1{font: 300 40px/50px 'Bree Serif', Georgia, serif; color:#DFDEDF;}
+	h2{font: 400 22px/42px 'Bree Serif', Georgia, serif; color:#C2C2C2;}
+	h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+
+	ul{margin:0px; padding:0px;}
+	a {text-decoration:none; color:#C2C2C2;}
+
+#container{
+			width: 950px;
+			margin: 0px auto 300px auto;
+
+			background-color: #222222;
+			overflow:auto;
+			padding-bottom:100px;
+			}
+#header{
+		width: 864px;
+		height:115px;
+		background-color:#101010;
+		padding: 0px 43px;
+		position: fixed;
+		top: 0px;
+		left: 50%;
+		margin: 0 0 0 -475px;
+		}
+
+#header #logo{padding-top:15px; 
+				float:left;
+				}
+#header #main-menu{
+					padding-top: 45px;
+					float:right; 
+				  }
+#header #main-menu li{
+					float: left;
+					list-style: none;
+					margin-left: 27px;
+					font: 400 16px 20px 'Bree Serif', Georgia, serif;
+					}
+#about{
+		margin:0px 43px; padding-top:115px;
+		}
+#about h1{ float: left; }
+#about .top-social{float: right;padding-top: 62px;}
+#about .top-social li{float: left;list-style: none;margin-left: 10px;}
+
+
+#about .content img{ float: left; margin-right: 40px;border:5px solid #222222;margin-bottom: 20px;}
+#about .content{overflow: auto; margin-top: 20px;float: right;}
+#experience {
+				margin: 0px 43px;
+}
+#experience .col {
+					width: 235px;
+					float: left;
+}
+#experience .content{overflow: auto;}
+
+#experience .col-mid{margin:0px 65px;}
+
+#connect .connect1{ width: 235px;
+					overflow:auto;
+					float: left; 
+
+					}
+
+#connect .social-footer{
+						width: 300px;
+						float: right;
+						margin-left: 75px;
+						margin-bottom: 20px;
+						}
+.top-divider, .bottom-devider{
+	width:100%;
+	height:9px;
+	background:url(divider.png) repeat-x;
+	overflow: auto;
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
+
+.connect1 { 
+			width: 300px;
+			float: left;
+			margin-left: 75px;
+			margin-bottom: 20px;
+			}
+
+.pinfo p{
+			display: inline-flex;
+		}
+
+.pinfo .key{
+		font-weight: bold;
+        color:#C2C2C2;
+		}
+.pinfo .value{
+				font-weight:bold;
+				
+              }
+.social-footer #sm-links li{	float: left;
+							list-style: none;
+							margin-left: 20px;
+}
